@@ -4,7 +4,7 @@ import { HiOutlinePlay } from 'react-icons/hi';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-8 px-4 lg:px-8 mt-auto">
+    <footer className="bg-[#001931] text-white py-8 px-4 lg:px-8 mt-auto">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
