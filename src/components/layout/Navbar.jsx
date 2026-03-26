@@ -11,7 +11,7 @@ const Navbar = () => {
             <img src="/logo.png" alt="HERO.IO Logo" />
           </div>
           <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            HERO.IO
+            Hero App Store
           </span>
         </NavLink>
       </div>
