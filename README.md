@@ -20,9 +20,9 @@
 
 <div align="center">
 
-![Nur Mohammad Hriodo](https://avatars.githubusercontent.com/u/your-github-id?v=4)
+![Nur Mohammad Hridoy](https://avatars.githubusercontent.com/u/108605580?v=4)
 
-### **Nur Mohammad Hriodo**
+### **Nur Mohammad Hridoy**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Hridoy--ii-181717?style=for-the-badge&logo=github)](https://github.com/Hridoy-ii/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge)](https://github.com/Hridoy-ii/)
@@ -285,7 +285,7 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ```
-Copyright (c) 2025 Nur Mohammad Hriodo
+Copyright (c) 2025 Nur Mohammad Hridoy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
