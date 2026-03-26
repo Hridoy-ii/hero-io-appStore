@@ -4,7 +4,8 @@ import MainLayout from './layouts/MainLayout';
 import Toast from './components/ui/Toast';
 import Home from './pages/Home';
 import AllApps from './pages/AllApps';
-import AppDetails from './pages/AppDetails'; // Import this
+import AppDetails from './pages/AppDetails';
+import ErrorPage from './pages/ErrorPage';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="apps" element={<AllApps />} />
-            <Route path="app/:id" element={<AppDetails />} /> {/* Add dynamic route */}
+            <Route path="app/:id" element={<AppDetails />} />
+            <Route path="*" element={<ErrorPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
