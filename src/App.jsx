@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import AllApps from './pages/AllApps';
 import AppDetails from './pages/AppDetails';
 import ErrorPage from './pages/ErrorPage';
+import MyInstallationApps from './pages/MyInstallationApps';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="apps" element={<AllApps />} />
+            <Route path="installation" element={<MyInstallationApps />} />
             <Route path="app/:id" element={<AppDetails />} />
             <Route path="*" element={<ErrorPage />} />
           </Route>
