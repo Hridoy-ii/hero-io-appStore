@@ -22,8 +22,8 @@ const Navbar = () => {
             <NavLink 
               to="/" 
               className={({ isActive }) => 
-                `px-4 py-2 rounded-lg font-medium transition-colors ${
-                  isActive ? 'text-primary bg-primary/10' : 'text-gray-700 hover:bg-gray-100'
+                `font-medium ${
+                  isActive ? 'text-primary ' : 'text-gray-700 hover:bg-gray-100'
                 }`
               }
             >
@@ -34,8 +34,8 @@ const Navbar = () => {
             <NavLink 
               to="/apps" 
               className={({ isActive }) => 
-                `px-4 py-2 rounded-lg font-medium transition-colors ${
-                  isActive ? 'text-primary bg-primary/10' : 'text-gray-700 hover:bg-gray-100'
+                `font-medium  ${
+                  isActive ? 'text-primary ' : 'text-gray-700 hover:bg-gray-100'
                 }`
               }
             >
@@ -46,7 +46,7 @@ const Navbar = () => {
             <NavLink 
               to="/installation" 
               className={({ isActive }) => 
-                `px-4 py-2 rounded-lg font-medium transition-colors ${
+                `font-medium  ${
                   isActive ? 'text-primary bg-primary/10' : 'text-gray-700 hover:bg-gray-100'
                 }`
               }

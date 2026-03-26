@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-              <HiOutlinePlay className="text-white text-lg" />
+            <div className="w-8 h-8">
+              <img src="/logo.png" alt="HERO.IO Logo" />
             </div>
             <span className="text-lg font-bold">HERO.IO</span>
           </div>
